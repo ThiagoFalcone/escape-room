@@ -1,6 +1,6 @@
 # Relatório de Resgate
-- Equipe: Thiago
-- Branch de trabalho: resgate/discente-thiago
+- Equipe: Thiago, João e Gabriel
+- Branch de trabalho: resgate/discente-thiago-joao-gabriel
 ## Diagnóstico
 - Porta 1 (compilação): `a70ee84` chamou `new Mercadoria(...)` sem o endereço e `repository.gravar` (método inexistente); `64f88f6` apagou `Validador.java`, usado por `EntregaService`.
 - Porta 2: arquivo excluído = `util/Validador.java` (commit `64f88f6`).
@@ -10,7 +10,7 @@
 ## Comandos Git utilizados
 - `git log --oneline --all --graph`: mapear histórico e branches.
 - `git show <hash>`: ver o que cada commit alterou.
-- `git checkout -b resgate/discente-thiago`: branch de trabalho.
+- `git checkout -b resgate/discente-thiago-joao-gabriel`: branch de trabalho.
 - `git revert <hash>`: desfaz um commit gerando novo commit rastreável (64f88f6, a70ee84, 9a6d3b0, 0cd80f6, 6572d8a).
 - `git merge --no-ff`: integrar o resgate na `main`.
 ## Commits relevantes
