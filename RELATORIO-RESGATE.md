@@ -10,7 +10,11 @@
 ## Comandos Git utilizados
 - `git log --oneline --all --graph`: mapear histórico e branches.
 - `git show <hash>`: ver o que cada commit alterou.
-- `git checkout -b resgate/discente-thiago-joao-gabriel`: branch de trabalho.
+- `git diff v1.0.0-funcional -- <arquivo>`: comparar `LoginService.java` e `EntregaService.java` com a versão funcional.
+- `git log --diff-filter=D --summary`: localizar a exclusão de `Validador.java`.
+- `git log --all -- README.md` e `git show docs-readme:README.md`: localizar versões do README.
+- `git log --all --oneline -- config/application.properties` e `git show commit-perigoso`: auditoria do segredo.
+- `git switch -c resgate/discente-thiago-joao-gabriel` (equivalente a `git checkout -b`): branch de trabalho.
 - `git revert <hash>`: desfaz um commit gerando novo commit rastreável (64f88f6, a70ee84, 9a6d3b0, 0cd80f6, 6572d8a).
 - `git merge --no-ff`: integrar o resgate na `main`.
 ## Commits relevantes
