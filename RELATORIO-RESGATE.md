@@ -1,5 +1,6 @@
 # Relatório de Resgate
 - Equipe: Thiago, João e Gabriel
+- Integrantes: Thiago Matheus, João Vítor Mamede e Gabriel Viana Nunes
 - Branch de trabalho: resgate/discente-thiago-joao-gabriel
 ## Diagnóstico
 - Porta 1 (compilação): `a70ee84` chamou `new Mercadoria(...)` sem o endereço e `repository.gravar` (método inexistente); `64f88f6` apagou `Validador.java`, usado por `EntregaService`. Mensagens exatas do Maven na seção "Erro de compilação (Etapa 3)".
